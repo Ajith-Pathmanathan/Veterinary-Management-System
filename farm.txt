@@ -1,0 +1,79 @@
+count of animals by type
+TOTAL VACINATED ANIMALS
+view vaccination by type
+CHANGE FARM OWNERSHIP
+
+
+Farm
+- id(PK)
+- name
+- size
+- city
+- street
+- district
+- type
+- user id(FK)
+
+
+user
+-id
+-firstname
+-lastname
+-dateof birth
+-email
+-national id
+-phonenumber
+-district
+-city
+-password
+-roleid
+
+
+pets
+-id
+-breed
+-gender
+-date-of birth
+-type
+-color
+-farmid
+
+vaccination
+-id
+-petid
+-vacieid
+-vaccination-date
+-dose
+
+vaccine
+-id
+-name
+
+hospital
+-id
+-name
+-district
+-address
+-contact number
+-email address
+
+faq
+-id
+-question
+-answer
+
+announcement
+-id
+-discription
+-image
+-expairy date
+
+medical history
+-id
+-petid
+-details
+-medicines
+-doctor-id
+
+
+
